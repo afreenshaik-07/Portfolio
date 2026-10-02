@@ -2,7 +2,7 @@
 
 A personal portfolio website for **Afreen Shaik**, an MCA student interested in software development and AI, built with plain HTML, CSS and JavaScript.
 
-**Live site:** https://afreenshaik-07.github.io
+**Live site:** https://afreenshaik-07.github.io/Portfolio/
 
 ## What is inside
 
