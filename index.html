@@ -294,6 +294,11 @@ ul.l li:nth-child(even)::before{background:var(--acc2)}
 .bub span{display:inline-flex;align-items:center;gap:.65rem}.bub svg{flex:none}
 #ctl::before{content:"";position:absolute;left:0;right:0;bottom:calc(-14px - env(safe-area-inset-bottom,0px));height:120px;background:linear-gradient(transparent,#1B1320 65%);z-index:-1;pointer-events:none}
 a.rbtn{display:inline-block;text-decoration:none}
+.fb .live{background:#2A1638;color:#F6EEF0}.fb .live:hover{background:#000}
+.bl{filter:blur(6px);-webkit-user-select:none;user-select:none;pointer-events:none}.pm{cursor:default}
+@media(min-width:701px){#p8 .certs{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:701px){#p5 .grid{grid-template-columns:repeat(2,1fr)}.fl{height:240px}}
+@media(min-width:701px){.fl{height:250px}.fb ul.l{gap:.25rem}.fb ul.l li{padding:.4rem .8rem .4rem 2.2rem}.fb .live{margin-top:.6rem}}
 </style>
 </head>
 <body>
@@ -313,7 +318,7 @@ a.rbtn{display:inline-block;text-decoration:none}
   <h1 id="nm" aria-label="Afreen Shaik"></h1>
   <div class="role s" style="--i:6">I'm an <b id="ty"></b>|</div>
   <div class="cts s" style="--i:7">
-    <a href="tel:+919381970528"><svg class="ic"><use href="#p"/></svg>+91 93819 70528</a>
+    <a class="pm" aria-label="Phone number, last five digits hidden"><svg class="ic"><use href="#p"/></svg>+91 93819 <span class="bl" aria-hidden="true">00000</span></a>
     <a href="mailto:skafreen090@gmail.com"><svg class="ic"><use href="#m"/></svg>skafreen090@gmail.com</a>
     <a href="https://github.com/afreenshaik-07" target="_blank" rel="noopener"><svg class="ic"><use href="#g"/></svg>afreenshaik-07</a>
     <a href="https://linkedin.com/in/afreen-shaik090" target="_blank" rel="noopener"><svg class="ic"><use href="#l"/></svg>afreen-shaik090</a>
@@ -327,7 +332,7 @@ a.rbtn{display:inline-block;text-decoration:none}
   <p class="big s" style="--i:1">I'm an MCA student with a strong foundation in software development, Python, Java, SQL, web technologies and artificial intelligence. I'm looking for an entry-level Software Developer or AI-related role where I can contribute to innovative projects, solve real-world problems and keep growing in emerging technologies.</p>
   <div class="stats s" style="--i:2">
     <div class="card stat"><b data-n="9.0">0</b><span>CGPA in BCA</span></div>
-    <div class="card stat"><b data-n="3">0</b><span>Projects</span></div>
+    <div class="card stat"><b data-n="4">0</b><span>Projects</span></div>
     <div class="card stat"><b data-n="4">0</b><span>Certifications</span></div>
     <div class="card stat"><b data-n="1">0</b><span>Internship</span></div>
   </div>
@@ -366,6 +371,7 @@ a.rbtn{display:inline-block;text-decoration:none}
       <div class="card fb"><ul class="l" style="margin:0"><li>Built an interactive recipe discovery app that works across devices.</li><li>Added real-time recipe search and filtering to make navigation easier.</li></ul></div></div></div>
     <div class="fl" role="button" tabindex="0"><div class="fi"><div class="card fa"><div><span class="tag">Python</span><h3 style="margin-top:.8rem">Snake Game in Python</h3></div><span class="hint">Tap to flip</span></div>
       <div class="card fb"><ul class="l" style="margin:0"><li>Developed a classic desktop Snake game with keyboard listeners and real-time collision detection.</li><li>Added dynamic scoring, high-score tracking and game-loop state management in modular Python.</li></ul></div></div></div>
+    <div class="fl" role="button" tabindex="0"><div class="fi"><div class="card fa"><div><span class="tag">HTML · CSS · JS</span><h3 style="margin-top:.8rem">Interactive Portfolio Website</h3></div><span class="hint">Tap to flip</span></div><div class="card fb"><ul class="l" style="margin:0"><li>Built an interactive, responsive portfolio with one page per section.</li><li>Deployed on GitHub Pages with a live link.</li></ul><a class="live" href="https://afreenshaik-07.github.io/Portfolio/" target="_blank" rel="noopener">Open the live portfolio</a></div></div></div>
   </div>
 </div></section>
 
@@ -387,7 +393,7 @@ a.rbtn{display:inline-block;text-decoration:none}
 <section class="page" id="p8"><div class="in">
   <h2 class="s">Let's connect</h2><p class="lead s" style="--i:1">I'm open to entry-level Software Developer and AI roles. Open a link or copy the details.</p>
   <div class="certs s" style="--i:2">
-    <div class="card cc"><svg class="ic"><use href="#p"/></svg><div class="t"><b>Phone</b><span class="v">+91 93819 70528</span></div><div class="act"><a href="tel:+919381970528">Call</a><button data-copy="+91 93819 70528">Copy</button></div></div>
+    <div class="card cc"><svg class="ic"><use href="#p"/></svg><div class="t"><b>Phone</b><span class="v">+91 93819 <span class="bl" aria-hidden="true">00000</span></span></div></div>
     <div class="card cc"><svg class="ic"><use href="#m"/></svg><div class="t"><b>Email</b><span class="v">skafreen090@gmail.com</span></div><div class="act"><a href="mailto:skafreen090@gmail.com">Write</a><button data-copy="skafreen090@gmail.com">Copy</button></div></div>
     <div class="card cc"><svg class="ic"><use href="#g"/></svg><div class="t"><b>GitHub</b><span class="v">github.com/afreenshaik-07</span></div><div class="act"><a href="https://github.com/afreenshaik-07" target="_blank" rel="noopener">Open</a><button data-copy="https://github.com/afreenshaik-07">Copy</button></div></div>
     <div class="card cc"><svg class="ic"><use href="#l"/></svg><div class="t"><b>LinkedIn</b><span class="v">linkedin.com/in/afreen-shaik090</span></div><div class="act"><a href="https://linkedin.com/in/afreen-shaik090" target="_blank" rel="noopener">Open</a><button data-copy="https://linkedin.com/in/afreen-shaik090">Copy</button></div></div>
